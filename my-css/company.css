@@ -1,0 +1,97 @@
+.ceo {
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.ceo-name {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.status {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #67686D;
+  padding: 10px 50px;
+}
+
+.name-area {
+  text-align: center;
+  padding-left: 50px;
+}
+
+.rubi {
+  color: #333;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 800;
+  color: #000;
+}
+
+.ceo-left {
+  width: 70%;
+  padding: 50px 30px
+}
+
+.ceo-right {
+  width: 40%;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 50px 30px
+}
+
+.ceo-right p {
+  padding-bottom: 30px;
+}
+
+.ceo-picture {
+  width: 500px;
+}
+
+.office {
+  width: 100%;
+  height: auto;
+  background-color: #67686D;
+}
+
+.office-content {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.office-left {
+  width: 50%;
+  padding: 50px 30px;
+}
+
+.office-right {
+  width: 50%;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* 2列 */
+  grid-template-rows: repeat(3, auto);
+  /* 3行 */
+  width: 80%;
+  height: auto;
+  color: #fff;
+}
+
+.info-grid div {
+  padding: 8px;
+}
+
+.info-title {
+  font-size: 18px;
+  font-weight: bold;
+}

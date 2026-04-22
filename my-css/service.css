@@ -38,3 +38,44 @@
   font-size: 24px;
   color: #333;
 }
+
+.service-item-box {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 100px 0 150px 0;
+}
+
+.service-item {
+  width: 30%;
+  height: 574px;
+  text-align: center;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 80px;
+}
+
+.material-symbols-outlined {
+  padding: 80px 0;
+  font-size: 55px !important;
+  width: 55px;
+  height: 55px;
+}
+
+.service01 {
+  background-color: #D8E6F9;
+}
+
+.service02 {
+  background-color: #F0E9F7;
+}
+
+.service03 {
+  background-color: #E2F5FF;
+}
