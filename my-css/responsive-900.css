@@ -1,0 +1,90 @@
+@media screen and (max-width: 900px) {
+
+  /* ===== ヘッダー ===== */
+  .logo {
+    display: none;
+  }
+
+  .nav {
+    height: 60px;
+  }
+
+  /* ===== #mycover ===== */
+  .mycover-img {
+    height: 100vh;
+  }
+
+  .mycover-textarea {
+    width: 70%;
+    padding: 30px;
+  }
+
+  .mycover-textarea h2 {
+    font-size: 24px;
+  }
+
+  /* ===== #news ===== */
+  .news-item img {
+    width: 80%;
+  }
+
+  /* ===== #service ===== */
+  .service-text {
+    width: 80%;
+  }
+
+  .service-item-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-item {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  /* ===== #company ===== */
+  .ceo {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .ceo-left,
+  .ceo-right {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ceo-picture {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .ceo-picture img {
+    width: 100%;
+    height: auto;
+  }
+
+  .office-content {
+    flex-direction: column;
+  }
+
+  .office-left,
+  .office-right {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .office-left iframe {
+    width: 100%;
+  }
+
+  /* ===== #inquire ===== */
+  .inquire-box {
+    width: 70%;
+  }
+
+  .inquire-box p {
+    width: 80%;
+  }
+}

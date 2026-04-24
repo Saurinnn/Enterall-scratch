@@ -42,6 +42,11 @@
   transform: translateY(0);
 }
 
+.mycover-textarea h2,
+.mycover-textarea p {
+  transition-delay: 1s;
+}
+
 .inquire-box {
   opacity: 0;
   transform: translate(-50%, -50%) translateY(100px);
