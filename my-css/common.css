@@ -1,3 +1,55 @@
 .my-content {
   overflow-y: hidden;
 }
+
+
+/* 表示されたときに付与されるクラス */
+.mycover-textarea {
+  opacity: 0;
+  transform: translate(-50%, -50%) translateX(80px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.mycover-textarea.fade-in {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateX(0);
+}
+
+.mycover-textarea h2,
+.mycover-textarea p,
+.news-content,
+.service-text01,
+.service-text02,
+.service-item,
+.ceo,
+.office-left,
+.office-right {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.mycover-textarea h2.fade-in,
+.mycover-textarea p.fade-in,
+.news-content.fade-in,
+.service-text01.fade-in,
+.service-text02.fade-in,
+.service-item.fade-in,
+.ceo.fade-in,
+.office-left.fade-in,
+.office-right.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.inquire-box {
+  opacity: 0;
+  transform: translate(-50%, -50%) translateY(100px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+
+.inquire-box.fade-in {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0);
+}
