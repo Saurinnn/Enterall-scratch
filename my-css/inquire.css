@@ -1,0 +1,48 @@
+#inquire {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.inquire-back {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.inquire-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  color: #fff;
+  background-color: rgba(103, 104, 109, 0.7);
+  padding: 50px;
+  text-align: center;
+}
+
+.inquire-box h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.inquire-box p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.mail {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 50px;
+  font-size: 100px !important;
+  font-weight: bold !important;
+  color: #fff;
+}
