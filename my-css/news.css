@@ -148,11 +148,10 @@
   object-fit: cover;
 }
 
-.news-item img {
+.news-item {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40%;
+  width: 60%;
   height: auto;
 }

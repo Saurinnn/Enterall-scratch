@@ -17,7 +17,6 @@
 
 .mycover-textarea h2,
 .mycover-textarea p,
-.news-content,
 .service-text01,
 .service-text02,
 .service-item,
@@ -31,7 +30,6 @@
 
 .mycover-textarea h2.fade-in,
 .mycover-textarea p.fade-in,
-.news-content.fade-in,
 .service-text01.fade-in,
 .service-text02.fade-in,
 .service-item.fade-in,
@@ -47,13 +45,14 @@
   transition-delay: 1s;
 }
 
+.news-item,
 .inquire-box {
   opacity: 0;
   transform: translate(-50%, -50%) translateY(100px);
   transition: opacity 2s ease, transform 2s ease;
 }
 
-
+.news-item.fade-in,
 .inquire-box.fade-in {
   opacity: 1;
   transform: translate(-50%, -50%) translateY(0);

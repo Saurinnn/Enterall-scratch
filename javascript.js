@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ".mycover-textarea",
     ".mycover-textarea h2",
     ".mycover-textarea p",
-    ".news-content",
+    ".news-item",
     ".service-text01",
     ".service-text02",
     ".service-item",
